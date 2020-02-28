@@ -1,3 +1,8 @@
 body {
 	background-color: #FFFF99;
 }
+
+li {
+	display: inline;
+	margin: 5px 25px 0 0;
+}
