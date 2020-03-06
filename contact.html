@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Ernest Bieś</title>
+</head>
+<body>
+<ul class="nav justify-content-center">
+    <li class="nav-item"><a>Home</a></li>
+    <li class="nav-item"><a>Quiz</a></li>
+    <li class="nav-item"><a>Kontakt</a></li>
+</ul>
+<div class="form">
+    <form>
+        <fieldset>
+            <legend class="w-auto">Uzupełnij dane:</legend>
+            <div class="form-group">
+                <label for="firstName">Imię:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Podaj imie" class="rounded">
+            </div>
+            <div class="form-group">
+                <label for="surname">Nazwisko:</label>
+                <input type="text" id="surname" name="surname" placeholder="Podaj nazwisko" class="rounded">
+            </div>
+            <div class="form-group">
+                <label for="em">E-mail:</label>
+                <input type="email" id="em" name="em" placeholder="Podaj e-mail" class="rounded">
+            </div>
+            <div class="form-group">
+                <label id="gender">Płeć:</label><br>
+                <input type="radio" id="man" name="gender" aria-labelledby='gender' checked>Mężczyzna
+                <input type="radio" id="woman" name="gender" aria-labelledby='gender'>Kobieta
+            </div>
+            <div class="form-group">
+                <label for="description">Opis:</label><br>
+                <textarea rows="4" cols="50" id="description" class="rounded"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="age">Wiek:</label>
+                <input type="number" step="1" min="1" value="1" id="age"/>
+            </div>
+            <div class="form-group">
+                <label for="maritalStatus">Stan cywilny:</label>
+                <select id="maritalStatus" class="rounded">
+                    <option value="Panna/Kawaler">Panna/Kawaler</option>
+                    <option value="Zamężna/Zamężny">Zamężna/Zamężny</option>
+                </select>
+            </div>
+            <button type="reset">Wyczyść</button>
+            <button type="submit">Wyślij</button>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,8 +1,27 @@
 body {
-	background-color: #FFFF99;
+	background-image: linear-gradient(to right, yellow, #ffff99);
 }
 
 li {
 	display: inline;
-	margin: 5px 25px 0 0;
+	margin: 5px 25px 25px 0;
+}
+
+div.form {
+	display: block;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+fieldset {
+	border: 2px solid #999;
+	border-radius: 5px;
+	padding: 8px;
+	box-shadow:0 0 8px #999;
 }
