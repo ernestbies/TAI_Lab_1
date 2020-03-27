@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-image: linear-gradient(to right, yellow, #ffff99);
+	background-color: yellow;
 	position: relative;
 	margin: 0;
 	padding-bottom: 6rem;
@@ -53,4 +53,33 @@ fieldset {
 	bottom: 30px;
 	right: 30px;
 	display: none;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.list-group-item {
+	cursor: pointer;
+}
+
+.correct {
+	background-color: #289a27;
+}
+
+.incorrect {
+	background-color: #c41a21;
+}
+
+.buttons {
+	padding: 10px 10px 10px 0;
+}
+
+.numberOfQuestion {
+	color: blue;
+	font-weight: bold;
+}
+
+.progress {
+	width: 100%;
 }

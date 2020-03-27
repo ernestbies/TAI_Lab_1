@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		  integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	<title>Ernest Bieś</title>
 </head>
 <body>
-	<div class="navbar">
+
+<div class="navbar">
+
+</div>
+
+<div class="container list">
+	<progress class="progress"></progress>
+	Question: <h3 class="numberOfQuestion"></h3>
+	<h4 class="question"></h4>
+
+	Answers:
+	<ul class="list-group">
+		<li class="list-group-item"></li>
+		<li class="list-group-item"></li>
+		<li class="list-group-item"></li>
+		<li class="list-group-item"></li>
+	</ul>
+
+	<div class="buttons">
+		<button class="btn btn-danger previous">Previous</button>
+		<button class="btn btn-success next">Next</button>
 	</div>
-	<div class="scroll">
-		<button class="btn btn-success">
-			<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>Do góry
-		</button>
+
+	<h4>Your score: <span class="score">0</span>/20 points.</h4>
+</div>
+
+<div class="container results" style="display: none">
+	<div class="btn-group-custom">
+		<button class="btn btn-success btn-custom restart">Retake quiz</button>
 	</div>
-	<footer class="footerClass">
-		<p>Copyrights &copy; | Ernest Bieś 2020</p>
-	</footer>
-	<script src="js/navbar.js"></script>
-	<script src="js/scroll.js"></script>
+	<div class="score">
+		<table class="table table-striped">
+			<thead>
+			<tr>
+				<th>#</th>
+				<th>Point/20</th>
+				<th>Average</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">Your score</th>
+				<td class="userScorePoint"></td>
+				<td class="average"></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="scroll">
+	<button class="btn btn-success">
+		<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>Do góry
+	</button>
+</div>
+
+<footer class="footerClass">
+	<p>Copyrights &copy; | Ernest Bieś 2020</p>
+</footer>
+
+<script src="js/navbar.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

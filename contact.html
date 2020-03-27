@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css"/>
     <title>Ernest Bieś</title>
 </head>
 <body>
-    <div class="navbar">
-    </div>
-    <div class="form">
+
+<div class="navbar">
+
+</div>
+
+<div class="form">
     <form>
         <fieldset>
             <legend class="w-auto">Uzupełnij dane:</legend>
@@ -27,8 +31,8 @@
             </div>
             <div class="form-group">
                 <label id="gender">Płeć:</label><br>
-                <input type="radio" id="man" name="gender" aria-labelledby='gender' checked>Mężczyzna
-                <input type="radio" id="woman" name="gender" aria-labelledby='gender'>Kobieta
+                <input type="radio" id="man" name="gender" title="man" aria-labelledby='gender' checked>Mężczyzna
+                <input type="radio" id="woman" name="gender" title="woman" aria-labelledby='gender'>Kobieta
             </div>
             <div class="form-group">
                 <label for="description">Opis:</label><br>
@@ -49,16 +53,19 @@
             <button class="btn btn-primary" type="submit">Wyślij</button>
         </fieldset>
     </form>
-    </div>
-    <div class="scroll">
-        <button class="btn btn-success">
-            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>Do góry
-        </button>
-    </div>
-    <footer class="footerClass">
-        <p>Copyrights &copy; | Ernest Bieś 2020</p>
-    </footer>
-    <script src="js/navbar.js"></script>
-    <script src="js/scroll.js"></script>
+</div>
+
+<div class="scroll">
+    <button class="btn btn-success">
+        <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>Do góry
+    </button>
+</div>
+
+<footer class="footerClass">
+    <p>Copyrights &copy; | Ernest Bieś 2020</p>
+</footer>
+
+<script src="js/navbar.js"></script>
+<script src="js/scroll.js"></script>
 </body>
 </html>
